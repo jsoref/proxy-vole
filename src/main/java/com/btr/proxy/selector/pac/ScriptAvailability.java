@@ -4,7 +4,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /****************************************************************************
- * Utility to check availablility of javax.script
+ * Utility to check availability of javax.script
  * 
  * @author Bernd Rosstauscher (proxyvole@rosstauscher.de) Copyright 2009
  ***************************************************************************/
