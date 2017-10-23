@@ -646,7 +646,7 @@ public class DHCPMessage {
 	}
 	
 	/**
-	 * Set client harware address.
+	 * Set client hardware address.
 	 * 
 	 * @param inChaddr client hardware address
 	 */
@@ -774,7 +774,7 @@ public class DHCPMessage {
 	}
 	
 	/** 
-	 * @return client harware address.
+	 * @return client hardware address.
 	 */
 	public byte[] getChaddr() {
 		return this.chaddr;
