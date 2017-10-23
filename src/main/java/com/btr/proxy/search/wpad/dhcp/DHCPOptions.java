@@ -68,7 +68,7 @@ public class DHCPOptions {
 	public static final int OPTION_SERVICE_X_FONT_SERVERS = 48;
 	public static final int OPTION_SERVICE_X_DISPLAY_MANAGERS = 49;
 	
-	public static final int OPTION_DHCP_IP_ADRESS_REQUESTED = 50;
+	public static final int OPTION_DHCP_IP_ADDRESS_REQUESTED = 50;
 	public static final int OPTION_DHCP_IP_LEASE_TIME = 51;
 	public static final int OPTION_DHCP_OVERLOAD = 52;
 	public static final int OPTION_DHCP_MESSAGE_TYPE = 53;

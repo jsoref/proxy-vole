@@ -78,7 +78,7 @@ public class DHCPMessage {
 	public static final int SERVER_PORT = 67; // server port (by default)
 	
 	/**
-	 * Broadcast Adress to send packets to
+	 * Broadcast Address to send packets to
 	 */
 	public static InetAddress BROADCAST_ADDR = null;
 	
@@ -183,7 +183,7 @@ public class DHCPMessage {
 	private int gPort;
 	
 	/**
-	 * The destination IP-Adress of this message
+	 * The destination IP-Address of this message
 	 */
 	private InetAddress destination_IP;
 	
