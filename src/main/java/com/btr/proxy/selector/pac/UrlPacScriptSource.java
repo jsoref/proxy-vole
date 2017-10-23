@@ -183,7 +183,7 @@ public class UrlPacScriptSource implements PacScriptSource {
 	/*************************************************************************
 	 * Configure the connection to download from.
 	 * @param url to get the pac file content from
-	 * @return a HTTPUrlConnecion to this url.
+	 * @return a HTTPUrlConnection to this url.
 	 * @throws IOException
 	 * @throws MalformedURLException
 	 ************************************************************************/
