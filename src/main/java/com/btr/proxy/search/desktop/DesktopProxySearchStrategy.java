@@ -40,7 +40,7 @@ public class DesktopProxySearchStrategy implements ProxySearchStrategy {
 	 ************************************************************************/
 	
 	private ProxySearchStrategy findDesktopSpecificStrategy() {
-		Platform pf = PlatformUtil.getCurrentPlattform();
+		Platform pf = PlatformUtil.getCurrentPlatform();
 		Desktop dt = PlatformUtil.getCurrentDesktop();
 		
 		Logger.log(getClass(), LogLevel.TRACE, "Detecting system settings.");

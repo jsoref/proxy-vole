@@ -33,7 +33,7 @@ public class IeTest {
 	 ************************************************************************/
 	@Test
 	public void testInvoke() throws ProxyException {
-		if (Platform.WIN.equals(PlatformUtil.getCurrentPlattform())) {
+		if (Platform.WIN.equals(PlatformUtil.getCurrentPlatform())) {
 			IEProxySearchStrategy st = new IEProxySearchStrategy();
 
 			// Try at least to invoke it and test if the dll does not crash

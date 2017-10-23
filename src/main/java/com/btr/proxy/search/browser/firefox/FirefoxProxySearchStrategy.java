@@ -71,7 +71,7 @@ public class FirefoxProxySearchStrategy implements ProxySearchStrategy {
 	
 	public FirefoxProxySearchStrategy() {
 		super();
-		if (PlatformUtil.getCurrentPlattform() == Platform.WIN) {
+		if (PlatformUtil.getCurrentPlatform() == Platform.WIN) {
 			this.profileScanner = new WinFirefoxProfileSource();
 		} else {
 			this.profileScanner = new LinuxFirefoxProfileSource();

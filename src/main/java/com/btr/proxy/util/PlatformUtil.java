@@ -21,7 +21,7 @@ public class PlatformUtil {
 	 * @return a platform code.
 	 ************************************************************************/
 	
-	public static Platform getCurrentPlattform() {
+	public static Platform getCurrentPlatform() {
 		String osName = System.getProperty("os.name");
 		Logger.log(PlatformUtil.class, LogLevel.TRACE, "Detecting platform. Name is: {0}", osName);
 		
@@ -52,7 +52,7 @@ public class PlatformUtil {
 	
 	public static Browser getDefaultBrowser() {
 		// Use better logic to detect default browser?
-		if (getCurrentPlattform() == Platform.WIN) {
+		if (getCurrentPlatform() == Platform.WIN) {
 			Logger.log(PlatformUtil.class, LogLevel.TRACE, "Detected Browser is InternetExplorer");
 			return Browser.IE;
 		} else {
@@ -67,7 +67,7 @@ public class PlatformUtil {
 	 ************************************************************************/
 	
 	public static Desktop getCurrentDesktop() {
-		Platform platf = getCurrentPlattform();
+		Platform platf = getCurrentPlatform();
 		
 		if (platf == Platform.WIN) {
 			Logger.log(PlatformUtil.class, LogLevel.TRACE, "Detected Windows desktop");
@@ -127,4 +127,14 @@ public class PlatformUtil {
 		return result;
 	}
 	
+	/**
+	 * @deprecated
+	 *
+	 *  use getCurrentPlatform
+	 */
+	@Deprecated
+	public static Platform getCurrentPlattform() {
+		return getCurrentPlatform();
+	}
+
 }

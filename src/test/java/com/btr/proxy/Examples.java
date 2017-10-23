@@ -24,12 +24,12 @@ public class Examples {
 	public void example2() {
 		ProxySearch proxySearch = new ProxySearch();
 		
-		if (PlatformUtil.getCurrentPlattform() == Platform.WIN) {
+		if (PlatformUtil.getCurrentPlatform() == Platform.WIN) {
 			proxySearch.addStrategy(Strategy.IE);
 			proxySearch.addStrategy(Strategy.FIREFOX);
 			proxySearch.addStrategy(Strategy.JAVA);
 		} else 
-		if (PlatformUtil.getCurrentPlattform() == Platform.LINUX) {
+		if (PlatformUtil.getCurrentPlatform() == Platform.LINUX) {
 			proxySearch.addStrategy(Strategy.GNOME);
 			proxySearch.addStrategy(Strategy.KDE);
 			proxySearch.addStrategy(Strategy.FIREFOX);
