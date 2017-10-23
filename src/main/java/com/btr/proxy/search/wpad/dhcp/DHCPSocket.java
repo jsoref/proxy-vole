@@ -59,7 +59,7 @@ public class DHCPSocket extends DatagramSocket {
 	}
 	
 	/**
-	 * Sends a DHCPMessage object to a predifined host.
+	 * Sends a DHCPMessage object to a predefined host.
 	 * 
 	 * @param inMessage Well-formed DHCPMessage to be sent to a server
 	 * 
