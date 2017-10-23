@@ -95,7 +95,7 @@ final class DLLManager {
 	}
 	
 	/*************************************************************************
-	 * Gets the file name that was overriden via system property.
+	 * Gets the file name that was overridden via system property.
 	 * @param libName
 	 * @return the file, null if it is not existing.
 	 ************************************************************************/
