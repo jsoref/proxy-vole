@@ -301,7 +301,7 @@ public class OsxProxySearchStrategy implements ProxySearchStrategy {
 	}
 
 	/*************************************************************************
-	 * Installs a proxy selector for the given protocoll on the ProtocolDispatchSelector
+	 * Installs a proxy selector for the given protocol on the ProtocolDispatchSelector
 	 * @param proxySettings to read the config for the procotol from.
 	 * @param ps the ProtocolDispatchSelector to install the new selector on.
 	 * @param protocol to use.
