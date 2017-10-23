@@ -22,7 +22,7 @@ public class DesktopProxySearchTest {
 	 * @throws ProxyException on error.
 	 ************************************************************************/
 	@Test
-	public void testDesktopStrategsIsWorking() throws ProxyException {
+	public void testDesktopStrategyIsWorking() throws ProxyException {
 		new DesktopProxySearchStrategy().getProxySelector();
 	}
 	
