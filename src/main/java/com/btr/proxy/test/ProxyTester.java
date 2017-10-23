@@ -79,10 +79,10 @@ public class ProxyTester extends JFrame {
 		p.add(this.testButton);
 
 		this.logArea = new JTextArea(5, 50);
-		JPanel contenPane = new JPanel(new BorderLayout());
-		contenPane.add(p, BorderLayout.NORTH);
-		contenPane.add(new JScrollPane(this.logArea), BorderLayout.CENTER);
-		setContentPane(contenPane);
+		JPanel contentPane = new JPanel(new BorderLayout());
+		contentPane.add(p, BorderLayout.NORTH);
+		contentPane.add(new JScrollPane(this.logArea), BorderLayout.CENTER);
+		setContentPane(contentPane);
 
 		pack();
 		setLocationRelativeTo(null);
