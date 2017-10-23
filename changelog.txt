@@ -67,7 +67,7 @@ Current Repository Version
 * Fixed Issue 5: PAC Parser was not working correctly in multithreaded environments.
 
 20100411
-* Fixed Issue 4: Improved parser used to parse proxy urls from environment varibales and other places
+* Fixed Issue 4: Improved parser used to parse proxy urls from environment variables and other places
 
 Older
 Did not track changes for older releases 
