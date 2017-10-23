@@ -21,7 +21,7 @@ public class DHCPOptions {
 	public static final int OPTION_COOKIE_SERVERS = 8;
 	public static final int OPTION_LPR_SERVERS = 9;
 	public static final int OPTION_IMPRESS_SERVERS = 10;
-	public static final int OPTION_RESSOURCE_LOCATION_SERVERS = 11;
+	public static final int OPTION_RESOURCE_LOCATION_SERVERS = 11;
 	public static final int OPTION_HOSTNAME = 12;
 	public static final int OPTION_BOOT_FILESIZE = 13;
 	public static final int OPTION_MERIT_DUMPFILE = 14;
