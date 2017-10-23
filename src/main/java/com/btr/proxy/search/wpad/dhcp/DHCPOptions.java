@@ -54,7 +54,7 @@ public class DHCPOptions {
 	
 	public static final int OPTION_TCP_DEFAULT_TTL = 37;
 	public static final int OPTION_TCP_KEEP_ALIVE_INTERVAL = 38;
-	public static final int OPTION_TCP_KEEP_ALIVE_GERBAGE_ENABLE = 39;
+	public static final int OPTION_TCP_KEEP_ALIVE_GARBAGE_ENABLE = 39;
 	
 	public static final int OPTION_NIS_DOMAIN = 40;
 	public static final int OPTION_NIS_SERVERS = 41;
