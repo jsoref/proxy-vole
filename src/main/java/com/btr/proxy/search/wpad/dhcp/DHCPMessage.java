@@ -805,7 +805,7 @@ public class DHCPMessage {
 	}
 	
 	/**
-	 * @return An interger representation of the message 
+	 * @return An integer representation of the message 
 	 *         destination port 
 	 */
 	public int getPort() {
