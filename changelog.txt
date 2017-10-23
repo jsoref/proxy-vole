@@ -47,7 +47,7 @@ Current Repository Version
 + Started to implement IPv6 support
 
 20110515
-+ Added (experiemental) support for Max OSX. This is not very well tested yet but should work. 
++ Added (experimental) support for Max OSX. This is not very well tested yet but should work. 
 + Fixed  issue 15 : The Firefox proxy search lacked support for socks proxy. This is now available.
 * Fixed  issue 12 : The PAC JavaScript method isInNet did not work for all patterns. This is fixed now.
 
