@@ -44,7 +44,7 @@ public class OsxProxySearchTest {
 	 * @throws URISyntaxException on invalid URL syntax.
 	 ************************************************************************/
 	@Test
-	public void wrongIntfaceShouldBeSkipped() throws ProxyException, URISyntaxException {
+	public void wrongInterfaceShouldBeSkipped() throws ProxyException, URISyntaxException {
 		System.setProperty(OsxProxySearchStrategy.OVERRIDE_SETTINGS_FILE, TestUtil.TEST_DATA_FOLDER+File.separator+"osx"+File.separator+"osx_manual.plist");
 		System.setProperty(OsxProxySearchStrategy.OVERRIDE_ACCEPTED_DEVICES, "junit");
 		ProxySelector ps = new OsxProxySearchStrategy().getProxySelector();
