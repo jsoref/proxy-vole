@@ -112,7 +112,7 @@ public class FirefoxProxySearchStrategy implements ProxySearchStrategy {
 				result = ProxyUtil.buildPacSelectorForUrl(pacScriptUrl);
 				break;
 			case 3: // Backward compatibility to netscape.
-				Logger.log(getClass(), LogLevel.TRACE, "Netscape compability mode -> uses no proxy");
+				Logger.log(getClass(), LogLevel.TRACE, "Netscape compatibility mode -> uses no proxy");
 				result = NoProxySelector.getInstance();
 				break;
 			case 4: // WPAD auto config
