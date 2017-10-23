@@ -29,7 +29,7 @@ public class PacProxySelectorTest {
 	/*************************************************************************
 	 * Test method
 	 * @throws ProxyException on proxy detection error.
-	 * @throws MalformedURLException on URL erros 
+	 * @throws MalformedURLException on URL errors 
 	 ************************************************************************/
 	@Test
 	public void testScriptExecution() throws ProxyException, MalformedURLException {
@@ -42,7 +42,7 @@ public class PacProxySelectorTest {
 	/*************************************************************************
 	 * Test method
 	 * @throws ProxyException on proxy detection error.
-	 * @throws MalformedURLException on URL erros 
+	 * @throws MalformedURLException on URL errors 
 	 ************************************************************************/
 	@Test
 	public void testScriptExecution2() throws ProxyException, MalformedURLException {
@@ -58,7 +58,7 @@ public class PacProxySelectorTest {
 	/*************************************************************************
 	 * Test download fix to prevent infinite loop.
 	 * @throws ProxyException on proxy detection error.
-	 * @throws MalformedURLException on URL erros 
+	 * @throws MalformedURLException on URL errors 
 	 ************************************************************************/
 	@Test
 	public void pacDownloadFromURLShouldNotUseProxy() throws ProxyException, MalformedURLException {
@@ -87,7 +87,7 @@ public class PacProxySelectorTest {
 	/*************************************************************************
 	 * Test method
 	 * @throws ProxyException on proxy detection error.
-	 * @throws MalformedURLException on URL erros 
+	 * @throws MalformedURLException on URL errors 
 	 ************************************************************************/
 	@Test
 	public void testScriptMuliProxy() throws ProxyException, MalformedURLException {
@@ -102,7 +102,7 @@ public class PacProxySelectorTest {
 	/*************************************************************************
 	 * Test method for the override local IP feature.
 	 * @throws ProxyException on proxy detection error.
-	 * @throws MalformedURLException on URL erros 
+	 * @throws MalformedURLException on URL errors 
 	 ************************************************************************/
 	@Test
 	public void testLocalIPOverride() throws ProxyException, MalformedURLException {

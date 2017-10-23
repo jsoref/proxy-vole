@@ -48,7 +48,7 @@ public class RhinoPacScriptParserTest {
 	/*************************************************************************
 	 * Test method
 	 * @throws ProxyException on proxy detection error.
-	 * @throws MalformedURLException on URL erros 
+	 * @throws MalformedURLException on URL errors 
 	 ************************************************************************/
 	@Test
 	public void testScriptExecution() throws ProxyException, MalformedURLException {
@@ -59,7 +59,7 @@ public class RhinoPacScriptParserTest {
 	/*************************************************************************
 	 * Test method
 	 * @throws ProxyException on proxy detection error.
-	 * @throws MalformedURLException on URL erros 
+	 * @throws MalformedURLException on URL errors 
 	 ************************************************************************/
 	@Test
 	public void testCommentsInScript() throws ProxyException, MalformedURLException {
@@ -70,7 +70,7 @@ public class RhinoPacScriptParserTest {
 	/*************************************************************************
 	 * Test method
 	 * @throws ProxyException on proxy detection error.
-	 * @throws MalformedURLException on URL erros 
+	 * @throws MalformedURLException on URL errors 
 	 ************************************************************************/
 	@Test
 	public void testScriptWeekDayScript() throws ProxyException, MalformedURLException {
@@ -81,7 +81,7 @@ public class RhinoPacScriptParserTest {
 	/*************************************************************************
 	 * Test method
 	 * @throws ProxyException on proxy detection error.
-	 * @throws MalformedURLException on URL erros 
+	 * @throws MalformedURLException on URL errors 
 	 ************************************************************************/
 	@Test
 	public void testDateRangeScript() throws ProxyException, MalformedURLException {
@@ -92,7 +92,7 @@ public class RhinoPacScriptParserTest {
 	/*************************************************************************
 	 * Test method
 	 * @throws ProxyException on proxy detection error.
-	 * @throws MalformedURLException on URL erros 
+	 * @throws MalformedURLException on URL errors 
 	 ************************************************************************/
 	@Test
 	public void testTimeRangeScript() throws ProxyException, MalformedURLException {

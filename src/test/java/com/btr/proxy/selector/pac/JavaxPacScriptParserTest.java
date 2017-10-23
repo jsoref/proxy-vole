@@ -51,7 +51,7 @@ public class JavaxPacScriptParserTest {
 	/*************************************************************************
 	 * Test method
 	 * @throws ProxyException on proxy detection error.
-	 * @throws MalformedURLException on URL erros 
+	 * @throws MalformedURLException on URL errors 
 	 ************************************************************************/
 	@Test
 	public void testScriptExecution() throws ProxyException, MalformedURLException {
@@ -62,7 +62,7 @@ public class JavaxPacScriptParserTest {
 	/*************************************************************************
 	 * Test method
 	 * @throws ProxyException on proxy detection error.
-	 * @throws MalformedURLException on URL erros 
+	 * @throws MalformedURLException on URL errors 
 	 ************************************************************************/
 	@Test
 	public void testCommentsInScript() throws ProxyException, MalformedURLException {
@@ -73,7 +73,7 @@ public class JavaxPacScriptParserTest {
 	/*************************************************************************
 	 * Test method
 	 * @throws ProxyException on proxy detection error.
-	 * @throws MalformedURLException on URL erros 
+	 * @throws MalformedURLException on URL errors 
 	 ************************************************************************/
 	@Test
 	@Ignore //Test deactivated because it will not run in Java 1.5 and time based test are unstable 
@@ -85,7 +85,7 @@ public class JavaxPacScriptParserTest {
 	/*************************************************************************
 	 * Test method
 	 * @throws ProxyException on proxy detection error.
-	 * @throws MalformedURLException on URL erros 
+	 * @throws MalformedURLException on URL errors 
 	 ************************************************************************/
 	@Test
 	@Ignore //Test deactivated because it will not run in Java 1.5 and time based test are unstable 
@@ -97,7 +97,7 @@ public class JavaxPacScriptParserTest {
 	/*************************************************************************
 	 * Test method
 	 * @throws ProxyException on proxy detection error.
-	 * @throws MalformedURLException on URL erros 
+	 * @throws MalformedURLException on URL errors 
 	 ************************************************************************/
 	@Test
 	@Ignore //Test deactivated because it will not run in Java 1.5 and time based test are unstable 
@@ -109,7 +109,7 @@ public class JavaxPacScriptParserTest {
 	/*************************************************************************
 	 * Test method
 	 * @throws ProxyException on proxy detection error.
-	 * @throws MalformedURLException on URL erros 
+	 * @throws MalformedURLException on URL errors 
 	 ************************************************************************/
 	@Test
 	public void methodsShouldReturnJsStrings() throws ProxyException, MalformedURLException {
