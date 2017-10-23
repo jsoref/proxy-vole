@@ -180,7 +180,7 @@ public final class PListParser
 		
 		/*************************************************************************
          * Get a node at a given path.
-         * @param path a / separated path into the plist hirarchy.
+         * @param path a / separated path into the plist hierarchy.
          * @return the object located at the given path, null if it does not exist.
          ************************************************************************/
         
