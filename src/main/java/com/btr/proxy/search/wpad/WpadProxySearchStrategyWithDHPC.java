@@ -165,11 +165,11 @@ public class WpadProxySearchStrategyWithDHPC implements ProxySearchStrategy {
 //			System.out.print(" sending DHCPREQUEST for ");
 //			System.out.println(bytesToString(offerMessageIn
 //					.getOption(REQUESTED_IP)));
-//			boolean sentinal = true;
-//			while (sentinal) {
+//			boolean sentinel = true;
+//			while (sentinel) {
 //				if (bindSocket.receive(messageIn)) {
 //					if (messageOut.getXid() == messageIn.getXid()) {
-//						sentinal = false;
+//						sentinel = false;
 //					} else {
 //						bindSocket.send(messageOut);
 //					}
