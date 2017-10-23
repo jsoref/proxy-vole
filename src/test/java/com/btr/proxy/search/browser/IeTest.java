@@ -19,7 +19,7 @@ import com.btr.proxy.util.UriFilter;
 
 /*****************************************************************************
  *  Unit tests for the InternetExplorer search.
- *  Only limited testing as this only runs on windwos and needs a 
+ *  Only limited testing as this only runs on windows and needs a 
  *  installed IE and IE proxy settings written to the registry.
  *  
  * @author Bernd Rosstauscher (proxyvole@rosstauscher.de) Copyright 2009
