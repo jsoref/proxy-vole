@@ -90,7 +90,7 @@ public class ProxyListFallbackSelector extends ProxySelector {
 	}
 
 	/*************************************************************************
-	 * Filters out proxies that are not reponding.
+	 * Filters out proxies that are not responding.
 	 * @param proxyList a list of proxies to test.
 	 * @return the filtered list.
 	 ************************************************************************/
