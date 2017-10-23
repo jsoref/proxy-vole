@@ -12,7 +12,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import com.btr.proxy.selector.direct.NoProxySelector;
 
 /*****************************************************************************
- * This is a facade for a list of ProxySelecor objects. You can register 
+ * This is a facade for a list of ProxySelector objects. You can register 
  * different ProxySelectors per Protocol.
  * 
  * @author Bernd Rosstauscher (proxyvole@rosstauscher.de) Copyright 2009
